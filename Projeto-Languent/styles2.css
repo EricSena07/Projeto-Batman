@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.navbar{
+    background-color:  #007bff;
+}
+
+.imagem{
+    width: 100px;
+    height: 100px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    padding: 23px;
+
+}
+
+.item{
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+    
+.item:hover{
+    background-color: black;
+}
+
+.texto{
+   display: block;
+   margin: auto;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 15px;
+   width: 50%; 
+}
+
+.texto:focus{
+    outline: none;
+    border-color: black;    
+}
